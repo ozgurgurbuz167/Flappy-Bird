@@ -1,6 +1,6 @@
 # 🐦 Flappy Bird Clone
 
-This is a **clone** of the classic **Flappy Bird** game.  
+This is a **clone** of the classic **Flappy Bird** game made in **Unity 6000.0.42f1**.  
 It recreates the same gameplay experience for those who miss the original.  
 
 > **Note:** This project is **not affiliated with, sponsored, or endorsed** by the original creators.
