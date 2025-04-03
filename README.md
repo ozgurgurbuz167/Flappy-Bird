@@ -16,9 +16,6 @@ It recreates the same gameplay experience for those who miss the original.
 
 ---
 
-## 📸 Screenshot
-![Flappy Bird](https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png)  
+## ▶️ [Play on Itch.io!](https://ozgurgurbuz.itch.io/flappy-bird) 🚀
+[![Flappy Bird](https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png)](https://ozgurgurbuz.itch.io/flappy-bird)
 
----
-
-Enjoy playing! 🚀  
