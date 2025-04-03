@@ -1,0 +1,72 @@
+<linker>
+    <!-- XR ve VR Modülleri -->
+    <assembly fullname="UnityEngine.XRModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.VRModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.ARModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.SpatialTracking">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+
+    <!-- Fizik ve Terrain Modülleri -->
+    <assembly fullname="UnityEngine.TerrainModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.TerrainPhysicsModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.ClothModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.AIModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+
+    <!-- Test ve Debug Modülleri -->
+    <assembly fullname="UnityEngine.TestRunner">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.PerformanceReportingModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.DSPGraphModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+
+    <!-- Ağ (Networking) ve Multiplayer Modülleri -->
+    <assembly fullname="UnityEngine.UNETModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.Networking">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.MultiplayerHLAPI">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+
+    <!-- VR/AR ile ilgili diğer gereksiz modüller -->
+    <assembly fullname="UnityEngine.InputSystem">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.VideoModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.ParticleSystemModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+    <assembly fullname="UnityEngine.VehiclesModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+
+    <!-- Physics (Eğer Rigidbody kullanıyorsan KALDIRMA!) -->
+    <assembly fullname="UnityEngine.PhysicsModule">
+        <type fullname="*" preserve="none"/>
+    </assembly>
+
+    <!-- UI ve Sprite Hariç Tüm Modülleri Kapatıyoruz -->
+</linker>
