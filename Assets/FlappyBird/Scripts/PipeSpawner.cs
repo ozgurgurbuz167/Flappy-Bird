@@ -4,7 +4,6 @@ using UnityEngine;
 public class PipeSpawner : MonoBehaviour
 {
 	public Transform bird;
-    public GameObject pipePrefab;
 	public List<Pipe> pipeList = new List<Pipe>();
 	
 	public ushort gap = 1;
@@ -26,12 +25,12 @@ public class PipeSpawner : MonoBehaviour
 		// 0.1 çünkü gap değerinden ileride olmalı
 		if(isScoreChanged == 0 && bird.position.x > pipeList[0].pipe.position.x + 0.1f)
 		{
-			isScoreChanged = 1;			
+			isScoreChanged = 1;
 			FlappyController.Ins.IncreaseScore();
 		}
 		else if(isScoreChanged == 1 && bird.position.x > pipeList[1].pipe.position.x + 0.1f)
 		{
-			isScoreChanged = 2;			
+			isScoreChanged = 2;
 			FlappyController.Ins.IncreaseScore();
 		}
 		

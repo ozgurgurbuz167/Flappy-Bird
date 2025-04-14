@@ -105,11 +105,5 @@ public class FlappyController : MonoBehaviour
 		tmpText.text = score.ToString();
 		soundManager.PlayAudio(SoundManager.Clips.score);
 	}
-	
-	/* private void ResetScore()
-	{
-		score = 0;
-		tmpText.text = score.ToString();
-	} */
 	#endregion
 }
